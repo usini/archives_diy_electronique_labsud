@@ -1,5 +1,7 @@
 Archives des ateliers DIY Electronique de Rémi Sarrailh au LABSud
 -----------------------
+Ces archives proviennent de l'ancien discord du LABSUD : https://discord.com/invite/PysSZb8   
+
 
 # 1 - (7 Décembre 2018)
 
