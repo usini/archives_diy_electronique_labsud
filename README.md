@@ -14,7 +14,7 @@ https://github.com/usini/epimetheus
 # 2 - (11 Janvier 2019)
 
 ## SonOff S20 - Prise connecté WiFi avec firmware open source et communication en MQTT (Tasmota)   
-https://tasmota.github.io/docs/devices/Sonoff-S20/
+https://tasmota.github.io/docs/devices/Sonoff-S20/   
 ![](photos/sonoff_tasmota.jpg)
 
 ## RFLink passerelle radio open source à base d'Arduino Mega (ASK 433Mhz / Milight 2.4ghz etc...)
@@ -24,7 +24,7 @@ https://easydomoticz.com/rflink-un-module-433mhz-arduino-mega-partie-1-le-materi
 
 
 ## ESP8266 Série vers MQTT
-[Introduction à MQTT](documents/Introduction_a_MQTT.pdf)
+📄 [Introduction à MQTT.pdf](documents/Introduction_a_MQTT.pdf)   
 ![](photos/mqtt_intro.jpg)
 
 ## Communication de Capteurs ESP32 WiFi/MQTT et MySensors Lora (Mysensors avec le RFM95)
@@ -78,35 +78,36 @@ Le M5Stick est leur carte la moins cher, très petite elle embarque un écran OL
 # Arduino Days 2019
 Le samedi 16 mars a lieu l'Arduino Days, une célébration internationale de l'anniversaire de l'Arduino et une occasion pour les
 passionnés d'électronique de se retrouver.
-https://labsud.org/arduino-day-2019-a-labsud/
+https://labsud.org/arduino-day-2019-a-labsud/   
+
 ![](photos/arduino_days_2019_labsud.jpg)
 
-[](documents/arduinos_days_2019/)
+📄 ##[Documents Arduino Days 2019](documents/arduinos_days_2019/)
 
 Le LabSud vous propose de découvrir les possibilités du logiciel Arduino sur différentes cartes électroniques à travers les projets des membres, tout l'après-midi.
 
 ## Projets Rémi    
-Keypad Midi
+* Keypad Midi
 https://create.arduino.cc/projecthub/usini/midi-keypad-c68fd2
 
-Strip de leds connectés (ArtNet/DMX)
+* Strip de leds connectés (ArtNet/DMX)
 https://twitter.com/us1ni/status/1100426436425453568
 
-Une station météo WiFi ESP32 : https://github.com/usini/epimetheus
+* Une station météo WiFi ESP32 : https://github.com/usini/epimetheus
 
-Une console de jeu à base d'ESP32 Odroid Go : 
+* Une console de jeu à base d'ESP32 Odroid Go : 
 https://www.hardkernel.com/shop/odroid-go/
 
-Un Arduino MKR 1010
+* Un Arduino MKR 1010
 https://twitter.com/arduino/status/1097586946380046336
 
-Des arduino avec des écrans OLED
+* Des arduino avec des écrans OLED
 https://twitter.com/arduino/status/1099397643380371463
 
-Boite à rythme Open Source Adafruit Trellis M4 Express
+* Boite à rythme Open Source Adafruit Trellis M4 Express
  https://learn.adafruit.com/adafruit-neotrellis-m4/overview
 
-M5Stick   
+* M5Stick   
 https://docs.m5stack.com/#/en/core/m5stick
 
 # 5 - (5 Avril 2019)
@@ -160,7 +161,7 @@ Pour les logiciels, perso j'ai retenu, si vous en utiliser d'autres faites tourn
 https://github.com/usini/espmessager
 
 Article d'Odile sur les ateliers DIY Electronique
-![](photos/soirees_diy_electroniques.jpg)
+![](photos/soirees_diy_electroniques.jpg)   
 https://labsud.org/des-soirees-diy-cartes-electroniques/
 
 # 7 - (7 Juin 2019)
@@ -184,17 +185,17 @@ Ce sera l'occasion d'apprendre pleins de choses sur l'esp8266 (et potentiellemen
 
 # 8 - (5 Juillet 2019)
 
-# Présentation de ma passerelle LoraWan à base d'esp32 
-# Capteur BME280 avec un lora32u4 
-# intégration sur une interface Mosquitto/NodeRed/Grafana/InfluxDB sur un serveur privé VPS
+## Présentation de ma passerelle LoraWan à base d'esp32 
+## Capteur BME280 avec un lora32u4 
+## intégration sur une interface Mosquitto/NodeRed/Grafana/InfluxDB sur un serveur privé VPS
 
-# Présentation de Julien Doutre sur le projet Ro-boat
+## Présentation de Julien Doutre sur le projet Ro-boat
 http://www.water-robotics.eu/
 
-# Présentation de Patrick du capteur EMG
+## Présentation de Patrick du capteur EMG
 capteurs-emg
 
-# Croquis / Bibliothèque de la passerelle ESP32 LoRa
+## Croquis / Bibliothèque de la passerelle ESP32 LoRa
 A noter
 * Ce n'est pas un remplacement à une vrai passerelle avec un SOC (Raspberry Pi)
 * Le code est paramétré pour le TTGO-OLED-V1
@@ -206,7 +207,7 @@ ce qui rend cette passerelle intéressant comme backup en cas de déconnexion de
 Basé sur ces explications : https://learn.sparkfun.com/tutorials/esp32-lora-1-ch-gateway-lorawan-and-the-things-network/all
 http://things4u.github.io/
 
-# 9 - (6 Septembre 2019)
+## 9 - (6 Septembre 2019)
 
 ## Recyclage Netbook en bartop
 ![](photos/bartop_decoupelaser.png)
@@ -305,65 +306,57 @@ Youtubers / Tutos ESP32
 # 12 - (Décembre 2019)
 
 # 13 - (Janvier 2020)
+## [Projets Musicals et LoraWan (pdf)](documents/Projets_Musiques_et_LoraWan.pdf)    
 
+![](photos/mini_synthé_arduino.jpg)   
+![](photos/lorawan.jpg)   
 
-
-[Projets Musicals et LoraWan (pdf)](documents/Projets_Musiques_et_LoraWan.pdf)
-![](photos/mini_synthé_arduino.jpg)
-
-![](photos/lorawan.jpg)
-
-
-Tutoriels LoRa   
-https://www.youtube.com/channel/UCG5_CT_KjexxjbgNE4lVGkg
+Tutoriels LoRa     
+https://www.youtube.com/channel/UCG5_CT_KjexxjbgNE4lVGkg   
 
 # 14 - (Février 2020)
 
-Pour ce mois-ci, j'ai pas mal de petits projets sous la main:
-
-Dans l'objectif de créer des kits open hardware facile à souder et pas cher, j'ai travaillé sur ces 3 projets.
+Pour ce mois-ci, j'ai pas mal de petits projets sous la main:   
+Dans l'objectif de créer des kits open hardware facile à souder et pas cher, j'ai travaillé sur ces 3 projets.    
 
 ## Lum0s : Un strip de LED RGBW WiFi alimenté par un Powerbank
-https://github.com/usini/lum0s
+https://github.com/usini/lum0s   
 ![](photos/led_esp8266.jpg)
 
 ### s1nT : Un synthé à base d'Arduino Nano :
-https://github.com/usini/s1nt
+https://github.com/usini/s1nt    
 ![](photos/s1nt.jpg)
 
 ### espMessenger : Une matrice de LED WiFi pour afficher des messages
-https://github.com/usini/espMessenger
+https://github.com/usini/espMessenger     
 ![](photos/espMessenger.jpg)
 J'ai aussi reçu deux cartes de prototypage :
 
 ## MakerDiary NRF52840 USB Dongle
-![](photos/makerdiary.jpg)
-https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/
-Une carte à base de ARM Cortex-M4F Bluetooth Low Energy compatible Circuit Python, sa consommation électrique est de plus ridiculement faible (3.16µA en fonctionnement et 16.40ma avec le Bluetooth en pleine puissance)
+![](photos/makerdiary.jpg)    
+https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/    
+Une carte à base de ARM Cortex-M4F Bluetooth Low Energy compatible Circuit Python, sa consommation électrique est de plus ridiculement faible (3.16µA en fonctionnement et 16.40ma avec le Bluetooth en pleine puissance)    
 
 ## M5Stack Atom Matrix 
-Et oui j'ai craqué pour la nouvelle carte de M5Stack : https://docs.m5stack.com/#/en/core/atom_matrix
+Et oui j'ai craqué pour la nouvelle carte de M5Stack : https://docs.m5stack.com/#/en/core/atom_matrix    
 
 ![](photos/atom.jpg)
 
-Si vous voulez suivre un peu plus au jour le jour, mes projets, n'hésitez pas à me suivre sur twitter : https://twitter.com/m4dnerd
+Si vous voulez suivre un peu plus au jour le jour, mes projets, n'hésitez pas à me suivre sur twitter : https://twitter.com/m4dnerd    
 
 ### Mur de leds (WS2811) avec caméra ESP32
 ![](photos/esp32cam_murleds.png)
 https://www.youtube.com/watch?v=ikhZ34WgObc
 
 # 15 - (5 Mars 2020)
-Comme chaque mois, les membres se réunissent pour parler électronique, que vous utilisiez des Arduino, des ESP, des Raspberry Pi ou autres...
-Cet atelier a pour objectif de permettre aux membres de discuter de leurs projets, de s'entraider ou de découvrir de nouvelles choses.
-Que vous soyez débutant ou confirmé, vous êtes les bienvenus !
 
-Pour cette session, je propose de parler de Kicad et de conception de PCB.
-On pourrait voir comment fabriquer ce thermomètre connecté : https://github.com/mcer12/Temper-ESP8266
-Les plans du PCB et l'assemblage (en grande partie) depuis JLCPCB sont disponibles.
+Pour cette session, je propose de parler de Kicad et de conception de PCB.  
+On pourrait voir comment fabriquer ce thermomètre connecté : https://github.com/mcer12/Temper-ESP8266   
+Les plans du PCB et l'assemblage (en grande partie) depuis JLCPCB sont disponibles.    
 
-![](photos/temper.jpg)
+![](photos/temper.jpg)   
 
-J'apporterais aussi cette puce : AY-3-8910A, c'est la puce qui gère le son du ZX-Spectrum (entre autre) et apparemment il est possible de la contrôler avec un arduino micro,
-mais je n'ai pas réussi à la faire marcher : https://hackaday.com/2019/07/30/chiptunes-via-usb-midi-with-the-ay-3-8910/
+J'apporterais aussi cette puce : AY-3-8910A, c'est la puce qui gère le son du ZX-Spectrum (entre autre) et apparemment il est possible de la contrôler avec un arduino micro,   
+mais je n'ai pas réussi à la faire marcher : https://hackaday.com/2019/07/30/chiptunes-via-usb-midi-with-the-ay-3-8910/   
 
-![](photos/ay.jpg)
+![](photos/ay.jpg)   
