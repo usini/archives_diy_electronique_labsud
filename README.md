@@ -2,7 +2,8 @@ Archives des ateliers DIY Electronique de Rémi Sarrailh au LABSud
 -----------------------
 Ces archives proviennent de l'ancien discord du LABSUD : https://discord.com/invite/PysSZb8   
 
-
+# Sommaire
+- [Sommaire](#sommaire)
 - [1 - (7 Décembre 2018)](#1---7-décembre-2018)
   - [Interrupteur / Passerelle USB pour Ampoule Milight à base d'arduino nano](#interrupteur--passerelle-usb-pour-ampoule-milight-à-base-darduino-nano)
   - [Station Météo (BME280/TSL2561) avec auto-détection I2C des capteurs](#station-météo-bme280tsl2561-avec-auto-détection-i2c-des-capteurs)
@@ -85,7 +86,6 @@ Ces archives proviennent de l'ancien discord du LABSUD : https://discord.com/inv
 - [15 - (5 Mars 2020)](#15---5-mars-2020)
   - [Conception PCB](#conception-pcb)
   - [Musique (AY-3-8910)](#musique-ay-3-8910)
-
 # 1 - (7 Décembre 2018)
 
 ## Interrupteur / Passerelle USB pour Ampoule Milight à base d'arduino nano
@@ -95,6 +95,8 @@ https://github.com/pigetArduino/milightONOFF
 
 ## Station Météo (BME280/TSL2561) avec auto-détection I2C des capteurs
 https://github.com/usini/epimetheus
+
+[↩ Sommaire](#sommaire)
 
 # 2 - (11 Janvier 2019)
 
@@ -106,7 +108,6 @@ https://tasmota.github.io/docs/devices/Sonoff-S20/
 https://easydomoticz.com/rflink-un-module-433mhz-arduino-mega-partie-1-le-materiel/
 
 ![](photos/rflink_arduino_mega.jpg)
-
 
 ## ESP8266 Série vers MQTT
 📄 [Introduction à MQTT.pdf](documents/Introduction_a_MQTT.pdf)   
@@ -122,6 +123,8 @@ https://easydomoticz.com/rflink-un-module-433mhz-arduino-mega-partie-1-le-materi
 ## Flute-Midi,une flute à base d'ESP32 connectable à un ordinateur en bluetooth MIDI.
 
 ![](photos/flute_midi.jpg)
+
+[↩ Sommaire](#sommaire)
 
 # 3 - (1 Février 2019)
 
@@ -139,6 +142,8 @@ https://wikifab.org/wiki/Contr%C3%B4ler_des_neopixels_comme_un_DJ
 ![](photos/neopixels_hackterio.jpg)
 
 ## Présentations des types de moteurs et de comment les contrôler.
+
+[↩ Sommaire](#sommaire)
 
 # 4 - (8 Mars 2019)
 ## Afficheurs OLED
@@ -165,6 +170,8 @@ passionnés d'électronique de se retrouver.
 https://labsud.org/arduino-day-2019-a-labsud/   
 
 ![](photos/arduino_days_2019_labsud.jpg)
+
+[↩ Sommaire](#sommaire)
 
 ## 📄 [Documents Arduino Days 2019](documents/arduinos_days_2019/)
 
@@ -193,6 +200,8 @@ https://twitter.com/arduino/status/1099397643380371463
 
 * M5Stick   
 https://docs.m5stack.com/#/en/core/m5stick
+
+[↩ Sommaire](#sommaire)
 
 # 5 - (5 Avril 2019)
 Le thème sera les objets connectés et la domotique.
@@ -234,6 +243,8 @@ Pour les logiciels, perso j'ai retenu, si vous en utiliser d'autres faites tourn
 * Gladys, dont j'entends beaucoup parler mais que j'ai jamais vraiment tester.
 * Home Assistant / ESPHome qui permet de programmer des esp configuré directement depuis l'interface si j'ai bien compris
 
+[↩ Sommaire](#sommaire)
+
 # 6 - (3 Mai 2019)
 
 ## Un synthétiseur/sampleur à base d’esp8266 avec entrée USB (USB Host) (mozzi)
@@ -247,6 +258,8 @@ https://github.com/usini/espmessager
 Article d'Odile sur les ateliers DIY Electronique
 ![](photos/soirees_diy_electroniques.jpg)   
 https://labsud.org/des-soirees-diy-cartes-electroniques/
+
+[↩ Sommaire](#sommaire)
 
 # 7 - (7 Juin 2019)
 
@@ -266,6 +279,8 @@ Ce sera l'occasion d'apprendre pleins de choses sur l'esp8266 (et potentiellemen
 * Comment gérer la configuration depuis un fichier json 
 * Comment afficher du texte avec des accents
 * etc...
+
+[↩ Sommaire](#sommaire)
 
 # 8 - (5 Juillet 2019)
 
@@ -290,6 +305,8 @@ ce qui rend cette passerelle intéressant comme backup en cas de déconnexion de
 
 Basé sur ces explications : https://learn.sparkfun.com/tutorials/esp32-lora-1-ch-gateway-lorawan-and-the-things-network/all
 http://things4u.github.io/
+
+[↩ Sommaire](#sommaire)
 
 # 9 - (6 Septembre 2019)
 
@@ -346,6 +363,8 @@ J'ai réussi avec 1 à 2 activations par heure à tenir 12h.
 ### Strip Neopixels
 'ai testé le contrôle de neopixels avec Micropython, et c'est assez simple à utiliser par ce biais, l'avantage est que l'on a un retour direct sur les commandes et l'on peut créer des fonctions afin de simplifier la programmation.
 
+[↩ Sommaire](#sommaire)
+
 # 10 - (4 Octobre 2019)
 ## Portes ouvertes
 https://twitter.com/us1ni/status/1180427585148325890
@@ -371,6 +390,8 @@ https://twitter.com/us1ni/status/1180427585148325890
 ### minimatrix-leds 
 * Raspberry  Pi / Matrix de LED : https://github.com/darknessii/rpi-matrix-artnet /  https://t.co/pBT0WUjhOn 
 
+[↩ Sommaire](#sommaire)
+
 # 11 - (Novembre 2019)
 
 ## LoraCube
@@ -387,7 +408,11 @@ https://twitter.com/us1ni/status/1180427585148325890
 
 * https://github.com/gmag11/painlessMesh
 
+[↩ Sommaire](#sommaire)
+
 # 12 - (Décembre 2019)
+
+[↩ Sommaire](#sommaire)
 
 # 13 - (Janvier 2020)
 ## [Projets Musicals et LoraWan (pdf)](documents/Projets_Musiques_et_LoraWan.pdf)    
@@ -397,6 +422,8 @@ https://twitter.com/us1ni/status/1180427585148325890
 
 Tutoriels LoRa     
 https://www.youtube.com/channel/UCG5_CT_KjexxjbgNE4lVGkg   
+
+[↩ Sommaire](#sommaire)
 
 # 14 - (Février 2020)
 
@@ -432,6 +459,8 @@ Si vous voulez suivre un peu plus au jour le jour, mes projets, n'hésitez pas �
 ![](photos/esp32cam_murleds.png)
 https://www.youtube.com/watch?v=ikhZ34WgObc
 
+[↩ Sommaire](#sommaire)
+
 # 15 - (5 Mars 2020)
 
 ## Conception PCB
@@ -447,3 +476,6 @@ J'apporterais aussi cette puce : AY-3-8910A, c'est la puce qui gère le son du Z
 mais je n'ai pas réussi à la faire marcher : https://hackaday.com/2019/07/30/chiptunes-via-usb-midi-with-the-ay-3-8910/   
 
 ![](photos/ay.jpg)   
+
+
+[↩ Sommaire](#sommaire)
