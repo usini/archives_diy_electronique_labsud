@@ -3,6 +3,89 @@ Archives des ateliers DIY Electronique de Rémi Sarrailh au LABSud
 Ces archives proviennent de l'ancien discord du LABSUD : https://discord.com/invite/PysSZb8   
 
 
+- [1 - (7 Décembre 2018)](#1---7-décembre-2018)
+  - [Interrupteur / Passerelle USB pour Ampoule Milight à base d'arduino nano](#interrupteur--passerelle-usb-pour-ampoule-milight-à-base-darduino-nano)
+  - [Station Météo (BME280/TSL2561) avec auto-détection I2C des capteurs](#station-météo-bme280tsl2561-avec-auto-détection-i2c-des-capteurs)
+- [2 - (11 Janvier 2019)](#2---11-janvier-2019)
+  - [SonOff S20 - Prise connecté WiFi avec firmware open source et communication en MQTT (Tasmota)](#sonoff-s20---prise-connecté-wifi-avec-firmware-open-source-et-communication-en-mqtt-tasmota)
+  - [RFLink passerelle radio open source à base d'Arduino Mega (ASK 433Mhz / Milight 2.4ghz etc...)](#rflink-passerelle-radio-open-source-à-base-darduino-mega-ask-433mhz--milight-24ghz-etc)
+  - [ESP8266 Série vers MQTT](#esp8266-série-vers-mqtt)
+  - [Communication de Capteurs ESP32 WiFi/MQTT et MySensors Lora (Mysensors avec le RFM95)](#communication-de-capteurs-esp32-wifimqtt-et-mysensors-lora-mysensors-avec-le-rfm95)
+  - [Odroid-Go, la gameboy à base d'ESP32 d'Odroid programmable](#odroid-go-la-gameboy-à-base-desp32-dodroid-programmable)
+  - [Flute-Midi,une flute à base d'ESP32 connectable à un ordinateur en bluetooth MIDI.](#flute-midiune-flute-à-base-desp32-connectable-à-un-ordinateur-en-bluetooth-midi)
+- [3 - (1 Février 2019)](#3---1-février-2019)
+  - [Lancement des tutoriaux sur hackter.io et wikifab](#lancement-des-tutoriaux-sur-hackterio-et-wikifab)
+  - [Contrôler des strips de LED neopixels avec un protocole utilisé par les techniciens lumières (DMX over net ArtNet)](#contrôler-des-strips-de-led-neopixels-avec-un-protocole-utilisé-par-les-techniciens-lumières-dmx-over-net-artnet)
+  - [Présentations des types de moteurs et de comment les contrôler.](#présentations-des-types-de-moteurs-et-de-comment-les-contrôler)
+- [4 - (8 Mars 2019)](#4---8-mars-2019)
+  - [Afficheurs OLED](#afficheurs-oled)
+  - [Arduino MKR1010](#arduino-mkr1010)
+  - [M5Stick](#m5stick)
+- [Arduino Days 2019](#arduino-days-2019)
+  - [📄 Documents Arduino Days 2019](#-documents-arduino-days-2019)
+  - [Projets Rémi](#projets-rémi)
+- [5 - (5 Avril 2019)](#5---5-avril-2019)
+  - [Microcontrôleurs (domotique)](#microcontrôleurs-domotique)
+    - [Pro Mini (modifié)](#pro-mini-modifié)
+    - [Lora32u4](#lora32u4)
+    - [Lolin32](#lolin32)
+  - [Logiciels](#logiciels)
+    - [Solution modulaire](#solution-modulaire)
+    - [Domotique](#domotique)
+- [6 - (3 Mai 2019)](#6---3-mai-2019)
+  - [Un synthétiseur/sampleur à base d’esp8266 avec entrée USB (USB Host) (mozzi)](#un-synthétiseursampleur-à-base-desp8266-avec-entrée-usb-usb-host-mozzi)
+  - [Une mini matrice de LED connectées (HTTP/MQTT / Chiffrement / Bug overflow)](#une-mini-matrice-de-led-connectées-httpmqtt--chiffrement--bug-overflow)
+- [7 - (7 Juin 2019)](#7---7-juin-2019)
+  - [Mini matrice de LED contrôlable depuis une interface Web integré ou Node-Red](#mini-matrice-de-led-contrôlable-depuis-une-interface-web-integré-ou-node-red)
+- [8 - (5 Juillet 2019)](#8---5-juillet-2019)
+  - [Présentation de ma passerelle LoraWan à base d'esp32](#présentation-de-ma-passerelle-lorawan-à-base-desp32)
+  - [Capteur BME280 avec un lora32u4](#capteur-bme280-avec-un-lora32u4)
+  - [intégration sur une interface Mosquitto/NodeRed/Grafana/InfluxDB sur un serveur privé VPS](#intégration-sur-une-interface-mosquittonoderedgrafanainfluxdb-sur-un-serveur-privé-vps)
+  - [Présentation de Julien Doutre sur le projet Ro-boat](#présentation-de-julien-doutre-sur-le-projet-ro-boat)
+  - [Présentation de Patrick du capteur EMG](#présentation-de-patrick-du-capteur-emg)
+  - [Croquis / Bibliothèque de la passerelle ESP32 LoRa](#croquis--bibliothèque-de-la-passerelle-esp32-lora)
+- [9 - (6 Septembre 2019)](#9---6-septembre-2019)
+  - [Recyclage Netbook en bartop](#recyclage-netbook-en-bartop)
+  - [Présentation des M5Stick-C](#présentation-des-m5stick-c)
+    - [Programation](#programation)
+    - [Led Infrarouge](#led-infrarouge)
+    - [Communication MQTT](#communication-mqtt)
+    - [Mode Veille / Capteur PIR](#mode-veille--capteur-pir)
+    - [Strip Neopixels](#strip-neopixels)
+- [10 - (4 Octobre 2019)](#10---4-octobre-2019)
+  - [Portes ouvertes](#portes-ouvertes)
+    - [Console ESP32 -](#console-esp32--)
+    - [Adafruit Trellis m4 -](#adafruit-trellis-m4--)
+    - [Synthé midi à base de keypad](#synthé-midi-à-base-de-keypad)
+    - [Capteur météo LoRaWan: #8ème-atelier](#capteur-météo-lorawan-8ème-atelier)
+    - [Afficheur epaper météo sur batterie](#afficheur-epaper-météo-sur-batterie)
+    - [Clavier Twitter](#clavier-twitter)
+    - [Capteur PIR MQTT](#capteur-pir-mqtt)
+    - [Station météo Yun : https://m5stack.com/collections/m5-unit/products/m5stickc-yun-hatsh20-bmp280-sk6812](#station-météo-yun--httpsm5stackcomcollectionsm5-unitproductsm5stickc-yun-hatsh20-bmp280-sk6812)
+    - [M5Stick-C Neoflash :  https://docs.m5stack.com/#/en/hat/hat-neoflash](#m5stick-c-neoflash---httpsdocsm5stackcomenhathat-neoflash)
+    - [Lightbar](#lightbar)
+    - [ESPMessenger](#espmessenger)
+    - [minimatrix-leds](#minimatrix-leds)
+- [11 - (Novembre 2019)](#11---novembre-2019)
+  - [LoraCube](#loracube)
+  - [Minimatrix-leds](#minimatrix-leds-1)
+  - [Lightbar](#lightbar-1)
+  - [Pwnagotchi](#pwnagotchi)
+  - [Youtubers / Tutos ESP32](#youtubers--tutos-esp32)
+- [12 - (Décembre 2019)](#12---décembre-2019)
+- [13 - (Janvier 2020)](#13---janvier-2020)
+  - [Projets Musicals et LoraWan (pdf)](#projets-musicals-et-lorawan-pdf)
+- [14 - (Février 2020)](#14---février-2020)
+  - [Lum0s : Un strip de LED RGBW WiFi alimenté par un Powerbank](#lum0s--un-strip-de-led-rgbw-wifi-alimenté-par-un-powerbank)
+    - [s1nT : Un synthé à base d'Arduino Nano :](#s1nt--un-synthé-à-base-darduino-nano-)
+    - [espMessenger : Une matrice de LED WiFi pour afficher des messages](#espmessenger--une-matrice-de-led-wifi-pour-afficher-des-messages)
+  - [MakerDiary NRF52840 USB Dongle](#makerdiary-nrf52840-usb-dongle)
+  - [M5Stack Atom Matrix](#m5stack-atom-matrix)
+    - [Mur de leds (WS2811) avec caméra ESP32](#mur-de-leds-ws2811-avec-caméra-esp32)
+- [15 - (5 Mars 2020)](#15---5-mars-2020)
+  - [Conception PCB](#conception-pcb)
+  - [Musique (AY-3-8910)](#musique-ay-3-8910)
+
 # 1 - (7 Décembre 2018)
 
 ## Interrupteur / Passerelle USB pour Ampoule Milight à base d'arduino nano
@@ -42,14 +125,14 @@ https://easydomoticz.com/rflink-un-module-433mhz-arduino-mega-partie-1-le-materi
 
 # 3 - (1 Février 2019)
 
-# Lancement des tutoriaux sur hackter.io et wikifab   
+## Lancement des tutoriaux sur hackter.io et wikifab   
 https://www.hackster.io/labsud   
 https://wikifab.org/wiki/Group:LABSud   
 
 ![](photos/hackterio_labsud.jpg)
 ![](photos/wikifab_labsud.jpg)
 
-# Contrôler des strips de LED neopixels avec un protocole utilisé par les techniciens lumières (DMX over net ArtNet)   
+## Contrôler des strips de LED neopixels avec un protocole utilisé par les techniciens lumières (DMX over net ArtNet)   
 https://www.hackster.io/labsud
 https://wikifab.org/wiki/Contr%C3%B4ler_des_neopixels_comme_un_DJ
 
@@ -70,7 +153,6 @@ https://fr.usini.eu/envoyer-un-message-sur-discord/
 
 ![](photos/discord_mkr.jpg)
 
-
 ## M5Stick
 
 M5Stack a le vent en poupe avec ces cartes ESP32 très complète à petit prix. (Si vous avez des câbles / composants GROVE amenez en)   
@@ -84,7 +166,7 @@ https://labsud.org/arduino-day-2019-a-labsud/
 
 ![](photos/arduino_days_2019_labsud.jpg)
 
-📄 ##[Documents Arduino Days 2019](documents/arduinos_days_2019/)
+## 📄 [Documents Arduino Days 2019](documents/arduinos_days_2019/)
 
 Le LabSud vous propose de découvrir les possibilités du logiciel Arduino sur différentes cartes électroniques à travers les projets des membres, tout l'après-midi.
 
@@ -123,7 +205,7 @@ Le thème sera les objets connectés et la domotique.
 * Gestion des batteries pour des projets basse consommation.
 
 
-## Microcontrôleurs
+## Microcontrôleurs (domotique)
 
 ### Pro Mini (modifié)
 Pour du mysensors, le pro mini sans led/régulateur de tensions et un nrf24l01 est intéressant niveau prix.
@@ -209,7 +291,7 @@ ce qui rend cette passerelle intéressant comme backup en cas de déconnexion de
 Basé sur ces explications : https://learn.sparkfun.com/tutorials/esp32-lora-1-ch-gateway-lorawan-and-the-things-network/all
 http://things4u.github.io/
 
-## 9 - (6 Septembre 2019)
+# 9 - (6 Septembre 2019)
 
 ## Recyclage Netbook en bartop
 ![](photos/bartop_decoupelaser.png)
@@ -265,38 +347,38 @@ J'ai réussi avec 1 à 2 activations par heure à tenir 12h.
 'ai testé le contrôle de neopixels avec Micropython, et c'est assez simple à utiliser par ce biais, l'avantage est que l'on a un retour direct sur les commandes et l'on peut créer des fonctions afin de simplifier la programmation.
 
 # 10 - (4 Octobre 2019)
-
+## Portes ouvertes
 https://twitter.com/us1ni/status/1180427585148325890
 
-* Console ESP32 - 
+### Console ESP32 - 
 #odroid-go 
-* Adafruit Trellis m4 - 
+### Adafruit Trellis m4 - 
 #adafruit-trellis-m4 
-* Synthé midi à base de keypad 
+### Synthé midi à base de keypad 
 #keypad-midi 
-* Capteur météo LoRaWan: #8ème-atelier 
-* Afficheur epaper météo sur batterie 
+### Capteur météo LoRaWan: #8ème-atelier 
+### Afficheur epaper météo sur batterie 
 #epaper-météo 
-* Clavier Twitter 
+### Clavier Twitter 
 #m5stick-twitter 
-* Capteur PIR MQTT 
+### Capteur PIR MQTT 
 #m5stick-pir 
-* Station météo Yun : https://m5stack.com/collections/m5-unit/products/m5stickc-yun-hatsh20-bmp280-sk6812
---> M5Stick-C Neoflash :  https://docs.m5stack.com/#/en/hat/hat-neoflash
-* Lightbar 
+### Station météo Yun : https://m5stack.com/collections/m5-unit/products/m5stickc-yun-hatsh20-bmp280-sk6812
+### M5Stick-C Neoflash :  https://docs.m5stack.com/#/en/hat/hat-neoflash
+### Lightbar 
 #lightbar 
-* ESPMessenger 
-minimatrix-leds 
+### ESPMessenger 
+### minimatrix-leds 
 * Raspberry  Pi / Matrix de LED : https://github.com/darknessii/rpi-matrix-artnet /  https://t.co/pBT0WUjhOn 
 
 # 11 - (Novembre 2019)
 
-* LoraCube
-* Minimatrix-leds
-* Lightbar
-* Pwnagotchi
+## LoraCube
+## Minimatrix-leds
+## Lightbar
+## Pwnagotchi
 
-Youtubers / Tutos ESP32
+## Youtubers / Tutos ESP32
 
 * Brian Lough (Matrice de LED): https://www.youtube.com/user/witnessmenow
 * Unexpected Maker (Conception carte ESP open source ): https://unexpectedmaker.com/
@@ -352,11 +434,14 @@ https://www.youtube.com/watch?v=ikhZ34WgObc
 
 # 15 - (5 Mars 2020)
 
+## Conception PCB
 Pour cette session, je propose de parler de Kicad et de conception de PCB.  
 On pourrait voir comment fabriquer ce thermomètre connecté : https://github.com/mcer12/Temper-ESP8266   
 Les plans du PCB et l'assemblage (en grande partie) depuis JLCPCB sont disponibles.    
 
 ![](photos/temper.jpg)   
+
+## Musique (AY-3-8910)
 
 J'apporterais aussi cette puce : AY-3-8910A, c'est la puce qui gère le son du ZX-Spectrum (entre autre) et apparemment il est possible de la contrôler avec un arduino micro,   
 mais je n'ai pas réussi à la faire marcher : https://hackaday.com/2019/07/30/chiptunes-via-usb-midi-with-the-ay-3-8910/   
