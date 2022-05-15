@@ -1,0 +1,47 @@
+<script src="mqttws31.min.js" type="text/javascript"></script>
+<script>
+hostname="127.0.0.1";
+port=9001;
+arduino = "COM"
+
+// Create a client instance
+client = new Paho.MQTT.Client(hostname, Number(port), "clientId");
+
+// set callback handlers
+client.onConnectionLost = onConnectionLost;
+client.onMessageArrived = onMessageArrived;
+
+// connect the client
+client.connect({onSuccess:onConnect});
+
+
+// called when the client connects
+function onConnect() {
+  // Once a connection has been made, make a subscription and send a message.
+  console.log("onConnect");
+  client.subscribe("#");
+  //client.subscribe(switch_name + "/#");
+}
+
+// called when the client loses its connection
+function onConnectionLost(responseObject) {
+  if (responseObject.errorCode !== 0) {
+    console.log("onConnectionLost:"+responseObject.errorMessage);
+  }
+}
+
+// called when a message arrives
+function onMessageArrived(message) {
+  console.log(message._getDestinationName() + ": " + message.payloadString);
+}
+
+function send(topic,value){
+  message = new Paho.MQTT.Message(value);
+  message.destinationName = topic;
+  client.send(message);
+}
+
+</script>
+
+<button onclick='send("/serial/" + arduino +"/in","on")'>ON</button>
+<button onclick='send("/serial/" + arduino + "/in","off")'>OFF</button>
