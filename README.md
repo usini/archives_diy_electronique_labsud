@@ -225,7 +225,8 @@ Permet aussi de faire du mysensors (attention pas compatible avec le nrf24l01) m
 * Le prix peut sembler élevé mais c'est surtout le transmetteur radio qui gonfle le prix
 
 ### Lolin32
-D'après Andreas Spiess c'est la carte avec esp32 avec le meilleur rapport consommation/prix
+D'après Andreas Spiess c'est l'esp32 de le moins cher pour sa consommation électrique en veille     
+https://docs.google.com/spreadsheets/d/1Mu-bNwpnkiNUiM7f2dx8-gPnIAFMibsC2hMlWhIHbPQ/edit#gid=0    
 * Pas besoin de passerelle radio
 * Le WiFi ça consomme plus et ça demande plus de précaution niveau sécurité (là où ça sera juste la passerelle qui a besoin d'être sécurisé pour la radio)
 * Si on change le capteur de lieu, il faut reconfigurer chaque capteur, là où avec la radio, seul la passerelle doit être reconfigurer. 
